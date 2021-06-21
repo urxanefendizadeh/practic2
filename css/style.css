@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 40%;
+    height: 190px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+p{
+    font-size: 28px;
+    font-family: 'Oswald';
+
+}
+.icon{
+    width: 6%;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    margin-top: 3px;
+    cursor: pointer;
+    font-size: 21px;
+}
+.icon:hover{
+    color: white;
+    background-color: blue;
+}
